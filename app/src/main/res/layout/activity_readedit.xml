@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cusAndroid="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activityRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <RelativeLayout
+        android:id="@+id/editthebar"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="#ff1a1a1a"
+        android:gravity="center_vertical"
+        android:paddingRight="10.0dip" >
+
+        <ImageView
+            android:id="@+id/backtomain"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10.0dip"
+            android:onClick="onBacktoMain"
+            android:src="@drawable/backtomain" />
+
+        <TextView
+            android:id="@+id/textstatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#ffe0e0e0"
+            android:textSize="18.0sp" />
+
+        <ImageView
+            android:id="@+id/editpage"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:onClick="onEditPage"
+            android:src="@drawable/editpage"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/savepage"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_alignParentRight="true"
+            android:onClick="onSavePage"
+            android:src="@drawable/savepage" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/touxiangbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editthebar" >
+
+        <ImageView
+            android:id="@+id/touxiang"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginTop="4.0dip" />
+
+        <ImageView
+            android:id="@+id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/touxiang"
+            android:layout_toRightOf="@id/touxiang"
+            android:background="@drawable/list_divider" />
+
+        <ImageView
+            android:id="@+id/record_audio"
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_above="@id/divider"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginRight="14.0dip"
+            
+            android:onClick="onRecordAudio"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/editpage"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/bar_divider"
+            android:layout_width="1.0px"
+            android:layout_height="30.0dip"
+            android:layout_marginRight="14.0dip"
+            android:layout_marginTop="11.0dip"
+            android:layout_toLeftOf="@id/record_audio"
+            android:background="#ff878787" />
+
+        <ImageView
+            android:id="@+id/bar_emotion"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:layout_marginRight="14.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_toLeftOf="@id/bar_divider"
+            android:scaleType="fitCenter" />
+
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/in_allcards"
+        layout="@layout/allcards" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/in_allcards"
+        android:layout_below="@id/touxiangbar"
+        android:layout_margin="4.0dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edit_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9.0dip"
+                android:layout_marginRight="9.0dip"
+                android:layout_marginTop="8.0dip"
+                android:background="@null"
+                android:hint="写日记..."
+                android:onClick="onEditFeild"
+                android:textSize="16.0sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_imgfield"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:orientation="horizontal"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_locationblock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginTop="8.0dip"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="19.0dip"
+                    android:src="@drawable/read_location" />
+
+                <TextView
+                    android:id="@+id/textlocationblock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textlocationblocktime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9.0dip"
+                android:layout_marginTop="7.0dip"
+                android:textColor="#ff888888" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

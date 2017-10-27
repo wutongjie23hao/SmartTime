@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "J:\\android_studio\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_editor.xml",
+        "source": "J:\\android_studio\\app\\src\\main\\res\\menu\\menu_editor.xml"
+    }
+]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="J:\android_studio\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="35f37358e9f152cbbb7c039aca1c73b2c9a223d1">
+        <dex dex="J:\android_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6895ecd1c504293a424d51ad7c994b50e9678a80\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="J:\android_studio\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="128ce4ceb647425acea04b65ee259fe015a4f78a">
+        <dex dex="J:\android_studio\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_1ccb19149e7a0f90159794bec16ffdbf035dcb9a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\android_studio\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="128ce4ceb647425acea04b65ee259fe015a4f78a">
+        <dex dex="J:\android_studio\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_1ccb19149e7a0f90159794bec16ffdbf035dcb9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\android_studio\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="J:\android_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1c1053b1cd896b63e7a8f33de8b6d2c17494cfa3\classes.dex" />
+    </item>
+
+</items>

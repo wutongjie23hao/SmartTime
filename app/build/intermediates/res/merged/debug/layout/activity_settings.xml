@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_background_color">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color"
+        android:fitsSystemWindows="true"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/OverflowMenuStyle"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <TextView
+            android:id="@+id/toolbar_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="设置"
+            android:textColor="@android:color/white"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/toolbar_title_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back" />
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/settings_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mytoolbar"
+        android:background="@android:color/transparent"
+        android:divider="@color/divider_color"
+        android:dividerHeight="1.0px"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <Button
+        android:id="@+id/logout_button"
+        style="@style/My.Button"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/settings_listview"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="30.0dip"
+        android:background="@drawable/square_button_style"
+        android:text="退出登录"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp" />
+</RelativeLayout>

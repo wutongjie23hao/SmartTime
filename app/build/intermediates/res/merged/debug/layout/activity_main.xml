@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeeeeee"
+    tools:context="com.zjxtwvf.smarttime.activity.MainActivity" >
+
+    <ListView
+        android:id="@+id/lv_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/list_divider" >
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/fl_option_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rl_option_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_option"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <GridLayout
+                android:id="@+id/gl_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:columnCount="2"
+                android:rowCount="4" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:text="我的"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_setting"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/fab_favorite_bg_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:text="地图显示"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_map_show_click"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/fab_add_contact_bg_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:text="拍照"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/fab_add_meeting_bg_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:text="写日记"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_write_diary"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_columnSpan="1"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/fab_add_chat_bg_normal" />
+
+                <FrameLayout
+                    android:id="@+id/fl_option"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_column="1"
+                    android:background="@drawable/fab_shadow_normal" >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/fab_plus_bg_normal" />
+
+                    <ImageView
+                        android:id="@+id/iv_dab_plus"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/fab_plus_normal" />
+                </FrameLayout>
+            </GridLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

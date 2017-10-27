@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\gesture_cancel_text_color.xml",
+        "source": "J:\\android_studio\\app\\src\\main\\res\\color\\gesture_cancel_text_color.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "J:\\android_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\74329944c01c9ab2e0af29439cc8c3c49b9d38b6\\output\\res\\color\\switch_thumb_material_light.xml"
+    }
+]
